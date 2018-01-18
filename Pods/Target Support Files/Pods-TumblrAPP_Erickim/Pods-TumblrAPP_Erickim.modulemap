@@ -1,0 +1,6 @@
+framework module Pods_TumblrAPP_Erickim {
+  umbrella header "Pods-TumblrAPP_Erickim-umbrella.h"
+
+  export *
+  module * { export * }
+}
