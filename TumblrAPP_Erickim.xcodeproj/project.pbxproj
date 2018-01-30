@@ -18,6 +18,7 @@
 		B8691E5F201095150028B109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8691E5D201095150028B109 /* LaunchScreen.storyboard */; };
 		B8691E6A201095150028B109 /* TumblrAPP_ErickimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8691E69201095150028B109 /* TumblrAPP_ErickimTests.swift */; };
 		B8691E75201095150028B109 /* TumblrAPP_ErickimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8691E74201095150028B109 /* TumblrAPP_ErickimUITests.swift */; };
+		B8EDDE6C201FF3C400B8A338 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EDDE6B201FF3C400B8A338 /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B8691E70201095150028B109 /* TumblrAPP_ErickimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrAPP_ErickimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8691E74201095150028B109 /* TumblrAPP_ErickimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrAPP_ErickimUITests.swift; sourceTree = "<group>"; };
 		B8691E76201095150028B109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EDDE6B201FF3C400B8A338 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		C85F132856903EC8B5D320E4 /* Pods-TumblrAPP_Erickim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrAPP_Erickim.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrAPP_Erickim/Pods-TumblrAPP_Erickim.release.xcconfig"; sourceTree = "<group>"; };
 		F6A1FB6E3FD7A13DFE5D919C /* Pods-TumblrAPP_ErickimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrAPP_ErickimTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrAPP_ErickimTests/Pods-TumblrAPP_ErickimTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 				B8691E5D201095150028B109 /* LaunchScreen.storyboard */,
 				B8691E60201095150028B109 /* Info.plist */,
 				B84451E72010A573000302C2 /* photoCell.swift */,
+				B8EDDE6B201FF3C400B8A338 /* PhotoDetailsViewController.swift */,
 			);
 			path = TumblrAPP_Erickim;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EDDE6C201FF3C400B8A338 /* PhotoDetailsViewController.swift in Sources */,
 				B84451E62010A2A2000302C2 /* PhotosViewController.swift in Sources */,
 				B84451E82010A573000302C2 /* photoCell.swift in Sources */,
 				B8691E55201095150028B109 /* AppDelegate.swift in Sources */,
